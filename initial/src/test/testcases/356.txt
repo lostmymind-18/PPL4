@@ -1,0 +1,13 @@
+
+            Class Rec{
+                Val a,$b:Int=3+5,7;
+                getArea(a:Int){
+                    If(a == 5){
+                        a = 8;
+                    }
+                    Else{
+                        a = 2;
+                    }
+                }
+            }        
+        

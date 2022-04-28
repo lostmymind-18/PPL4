@@ -1,0 +1,1 @@
+Program([ClassDecl(Id(Shape),[MethodDecl(Id($getNumOfShape),Static,[param(Id(x),IntType),param(Id(y),IntType),param(Id(z),IntType)],Block([For(Id(ibc),BinaryOp(+,IntLit(3),BinaryOp(/,BinaryOp(*,IntLit(5),IntLit(8)),FieldAccess(Id(Ac),Id($x)))),IntLit(100),ArrayCell(Id(A),[IntLit(3)]),Block([]))]))])])

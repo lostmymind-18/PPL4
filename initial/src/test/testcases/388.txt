@@ -1,0 +1,44 @@
+
+Class Shape {
+    Val $numOfShape: Int = 0;
+    Val immutableAttribute: FLOAT = 34.5E-301;
+    Var length, width: STrInG;
+    $getNumOfShape(x,y,z:INT) {
+        x = -----(((5)));
+        y = abc::$a($a,b,5,"xyz");
+        z = abc.ynx($a,b,5,"xyz");
+        x = index[index[3][index[3][3]]];
+        index[index[3][index[3][3]]+Abc::$abc(5+8,"dan")] = 9;
+        If($a > 5)
+        {
+             x = 5+3;
+             Break;
+        }
+        Elseif(True)
+        {
+             y = $a;
+             Continue;
+        }
+        Break;
+        Continue;
+                x = index[index[3][index[3][3]]];
+        index[index[3][index[3][3]]+Abc::$abc(5+8,"dan")] = 9;
+        Foreach(x In 8-3/2 .. 100 By 50-10){
+            Foreach(x In 8-3/2 .. 100 By 50-10){
+                Foreach(x In 8-3/2 .. 100 By 50-10){
+                    Foreach(x In 8-3/2 .. 100 By 50-10){
+                        Break;
+                    }
+                }
+            }
+        }
+    }
+    Constructor(x,y,z:INT){
+        Self.x = New X($a,b,5,"abc");
+        Self.y = CA__.aaabc___;
+        Self.z = ("abc" +. "cdb") ==. "xyz";
+    }
+    Destructor(){}
+}
+                 
+        

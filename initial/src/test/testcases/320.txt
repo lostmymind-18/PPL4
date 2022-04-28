@@ -1,0 +1,6 @@
+
+            Class Rectangle{
+                Var x : Int = 5*8+(3/2-4)*7;
+            }
+        }
+        

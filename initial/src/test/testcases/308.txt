@@ -1,0 +1,4 @@
+Class Rectangle{
+            Val $x: Float = 3.67;
+        }
+        

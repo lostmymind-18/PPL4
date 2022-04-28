@@ -1,0 +1,4 @@
+Class Rectangle{
+            Val $x: Int;
+        }
+        

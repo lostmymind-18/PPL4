@@ -1,0 +1,1 @@
+Program([ClassDecl(Id(Rectangle),[MethodDecl(Id(getArea),Instance,[param(Id(a),IntType),param(Id(b),IntType),param(Id(c),FloatType),param(Id(d),FloatType)],Block([]))])])

@@ -1,0 +1,8 @@
+
+            Class ABC{
+                abc(x,y,z:Int){
+                    A.abc(5>3,True,3+5,"abc");
+                    A::$abc(1,2,3);
+                }
+            }
+        

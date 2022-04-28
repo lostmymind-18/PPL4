@@ -1,0 +1,1 @@
+Program([ClassDecl(Id(Rectangle),[AttributeDecl(Instance,VarDecl(Id(x),StringType,BinaryOp(+.,StringLit(abc),StringLit(xyz)))),AttributeDecl(Instance,VarDecl(Id(y),FloatType,FieldAccess(FieldAccess(Id(Geo),Id($size)),Id(abc))))])])

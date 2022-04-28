@@ -1,0 +1,5 @@
+Class Rectangle{
+            Val $x,$y: Float = 3.67,4_3_5.000;
+            Var $x,$y,$z: Boolean = True,False,True;
+        }
+        

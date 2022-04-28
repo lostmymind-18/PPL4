@@ -1,0 +1,1 @@
+Program([ClassDecl(Id(Rec),[MethodDecl(Id(getArea),Instance,[],Block([])),MethodDecl(Id(Destructor),Instance,[],Block([AssignStmt(FieldAccess(Self(),Id(x)),IntLit(0)),AssignStmt(FieldAccess(Self(),Id(y)),IntLit(0)),AssignStmt(FieldAccess(Self(),Id(addr)),NullLiteral())]))])])

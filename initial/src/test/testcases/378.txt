@@ -1,0 +1,5 @@
+
+             Class Abc{
+                 Var $x : Int = A::$abc();
+             }        
+        

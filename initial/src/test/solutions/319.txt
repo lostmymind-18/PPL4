@@ -1,0 +1,1 @@
+Program([ClassDecl(Id(Rectangle),[AttributeDecl(Instance,VarDecl(Id(x),BoolType,BinaryOp(&&,BooleanLit(True),BooleanLit(False))))])])

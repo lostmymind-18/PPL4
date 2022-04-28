@@ -1,0 +1,9 @@
+
+            Class Sort{
+                bubbleSort(x:Array[Int,n];n:Int)
+                {
+                    Var i,j:Int;
+                    Var haveSwap:Boolean=False;
+                }
+            }
+        

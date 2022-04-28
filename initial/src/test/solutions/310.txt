@@ -1,0 +1,1 @@
+Program([ClassDecl(Id(Rectangle),[AttributeDecl(Static,ConstDecl(Id($x),FloatType,FloatLit(3.67))),AttributeDecl(Static,ConstDecl(Id($y),FloatType,FloatLit(435.000))),AttributeDecl(Static,VarDecl(Id($x),BoolType,BooleanLit(True))),AttributeDecl(Static,VarDecl(Id($y),BoolType,BooleanLit(False))),AttributeDecl(Static,VarDecl(Id($z),BoolType,BooleanLit(True)))])])

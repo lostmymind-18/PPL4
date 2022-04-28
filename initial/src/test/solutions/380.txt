@@ -1,0 +1,1 @@
+Program([ClassDecl(Id(Abc),[AttributeDecl(Static,VarDecl(Id($x),IntType,CallExpr(FieldAccess(Id(A),Id($bc)),Id(abc),[]))),AttributeDecl(Instance,ConstDecl(Id(y),IntType,CallExpr(Id(A),Id($xyz),[BinaryOp(+,IntLit(3),IntLit(5)),BinaryOp(*,IntLit(4),IntLit(9)),CallExpr(Id(A),Id(bce),[]),StringLit(abc)])))])])

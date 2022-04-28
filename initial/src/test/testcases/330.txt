@@ -1,0 +1,7 @@
+
+            Class Rectangle{
+                Var y,$z : Float = ------5, Self.a.b.c;
+                Val x,$d,z,$d : Int = 3+5*3,5-3/(2-1),---1,8;
+                Var y: Boolean = !!!!A[3]&&A::$x||A[3];
+            }
+        

@@ -1,0 +1,6 @@
+
+             Class Abc{
+                 Var $x : Int = A::$bc.abc();
+                 Val y : Int = A::$xyz(3+5,4*9,A.bce(),"abc");
+             }
+        

@@ -1,0 +1,4 @@
+Class Rectangle{
+            Val $x: Array[Int,5] = Array(1,2,3,4,5);
+        }
+        

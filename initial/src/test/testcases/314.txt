@@ -1,0 +1,4 @@
+Class Rectangle{
+            Val $x: Array[Int,5] = Array("abc","bbd","cef","dgh","eaff");
+        }
+        

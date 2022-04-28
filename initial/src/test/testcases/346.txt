@@ -1,0 +1,9 @@
+
+            Class Rec{
+                getArea(){
+                    Var x,y:Int;
+                    x = 5;
+                    y = 8;
+                }
+            }
+        

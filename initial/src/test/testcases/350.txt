@@ -1,0 +1,9 @@
+
+            Class Rec{
+                getArea(){}
+                Constructor(a,b:Int){
+                    Self.a = a;
+                    Self.b = b;
+                }
+            }
+        

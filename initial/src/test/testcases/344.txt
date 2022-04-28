@@ -1,0 +1,10 @@
+
+            Class Rectangle{
+                getArea(){
+                    Val x,y:Int = 3,5;
+                    Var a,b:Boolean = True,False;
+                    Val x: Float = 3+5;
+                    Var e: Boolean = 3>5;
+                }
+            }
+        

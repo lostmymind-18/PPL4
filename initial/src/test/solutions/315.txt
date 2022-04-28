@@ -1,0 +1,1 @@
+Program([ClassDecl(Id(Rectangle),[AttributeDecl(Static,ConstDecl(Id($x),ArrayType(IntLit(3),ArrayType(IntLit(3),StringType)),[[StringLit(a),StringLit(b),StringLit(c)],[StringLit(d),StringLit(e),StringLit(f)],[StringLit(i),StringLit(g),StringLit(h)]]))])])

@@ -1,0 +1,1 @@
+Program([ClassDecl(Id(Rectangle),[MethodDecl(Id(getArea),Instance,[],Block([ConstDecl(Id(x),IntType,IntLit(3)),ConstDecl(Id(y),IntType,IntLit(5)),ConstDecl(Id(z),IntType,BinaryOp(-,BinaryOp(*,IntLit(4),IntLit(3)),IntLit(2)))]))])])

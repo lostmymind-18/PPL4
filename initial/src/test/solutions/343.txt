@@ -1,0 +1,1 @@
+Program([ClassDecl(Id(Rectangle),[MethodDecl(Id($getArea),Static,[],Block([ConstDecl(Id(x),IntType,IntLit(3)),ConstDecl(Id(y),IntType,IntLit(5))]))])])

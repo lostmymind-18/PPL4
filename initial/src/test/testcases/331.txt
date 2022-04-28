@@ -1,0 +1,7 @@
+
+            Class Rectangle{
+                Var x : Boolean = (3+7)-5*2 > A[3]*7;
+                Var $y : Boolean = Self.x + 5 == 8*(3+7);
+                Var g,$h: Boolean = 3>=(8+5)*8/2-1,-Abc::$z+2 <= 7;
+            }
+        

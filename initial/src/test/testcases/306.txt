@@ -1,0 +1,4 @@
+Class Rectangle{
+            Var $x: Int;
+        }
+        

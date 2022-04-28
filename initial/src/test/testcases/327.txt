@@ -1,0 +1,6 @@
+
+            Class Rectangle{
+                Var y,$z : Float = -Abc::$xyz+5*3,-Aba[3][3]*3/2-5;
+            }
+        }
+        

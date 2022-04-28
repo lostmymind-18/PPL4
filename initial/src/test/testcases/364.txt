@@ -1,0 +1,9 @@
+
+Class Shape {
+    $getNumOfShape(x,y,z:INT) {
+        x = index[index[3][index[3][3]]];
+        index[index[3][index[3][3]]+Abc::$abc(5+8,"dan")] = 9;
+        Foreach(i In 1 .. 100 By 2){}
+    }
+}        
+        

@@ -1,0 +1,6 @@
+
+            Class Rectangle{
+                Var y,$z : String = xyz[3+2][3][4][6],3;
+            }
+        }
+        

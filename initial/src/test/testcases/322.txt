@@ -1,0 +1,7 @@
+
+            Class Rectangle{
+                Var x : String = "abc"+."xyz";
+                Var y : Float = Geo::$size;
+            }
+        }
+        

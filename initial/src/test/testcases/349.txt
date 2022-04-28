@@ -1,0 +1,6 @@
+
+            Class Rec{
+                getArea(){}
+                Constructor(){}
+            }
+        

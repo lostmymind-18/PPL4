@@ -1,0 +1,1 @@
+Program([ClassDecl(Id(Rec),[AttributeDecl(Instance,ConstDecl(Id(a),IntType,BinaryOp(+,IntLit(3),IntLit(5)))),AttributeDecl(Static,ConstDecl(Id($b),IntType,IntLit(7))),MethodDecl(Id(getArea),Instance,[param(Id(a),IntType)],Block([If(BinaryOp(==,Id(a),IntLit(5)),Block([AssignStmt(Id(a),IntLit(8))]),Block([AssignStmt(Id(a),IntLit(2))]))]))])])

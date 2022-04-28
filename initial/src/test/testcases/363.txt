@@ -1,0 +1,9 @@
+
+Class Shape {
+    $getNumOfShape(x,y,z:INT) {
+        Foreach(i In 1 .. 100){
+            i = i+1;
+        }
+    }
+}        
+        

@@ -1,0 +1,6 @@
+
+            Class Rectangle{
+                Var x : String = "abc'""+."xyz";
+            }
+        }
+        

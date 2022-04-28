@@ -1,0 +1,10 @@
+
+            Class ABC{
+                abc(x,y,z:Int){
+                }
+            }
+            Class XYZ:ABC{
+                abc(x,y,z:Int){
+                }
+            }         
+        

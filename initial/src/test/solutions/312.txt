@@ -1,0 +1,1 @@
+Program([ClassDecl(Id(Rectangle),[AttributeDecl(Static,ConstDecl(Id($x),StringType,StringLit(abc)))])])

@@ -1,0 +1,10 @@
+
+Class Shape {
+    Val $numOfShape: X = New X(3,$a);
+    Val x,y: X = New X(), New X();
+    Var length, width: Boolean = True, False;
+    $getNumOfShape(x,y,z:INT) {
+	{{{{{{{{{}}}}}}}}}
+    }
+}                 
+        

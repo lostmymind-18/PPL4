@@ -1,0 +1,10 @@
+
+            Class Rec{
+                getArea(){}
+                Destructor(){
+                    Self.x = 0;
+                    Self.y = 0;
+                    Self.addr = Null;
+                }
+            }
+        

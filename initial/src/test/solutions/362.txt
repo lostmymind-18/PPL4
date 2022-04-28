@@ -1,0 +1,1 @@
+Program([ClassDecl(Id(Sort),[MethodDecl(Id(bubbleSort),Instance,[param(Id(x),ArrayType(Id(n),IntType)),param(Id(n),IntType)],Block([VarDecl(Id(i),IntType),VarDecl(Id(j),IntType),VarDecl(Id(haveSwap),BoolType,BooleanLit(False))]))])])

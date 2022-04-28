@@ -1,0 +1,38 @@
+
+Class Shape {
+    Val $numOfShape: X = New X(3,$a);
+    Val x,y: X = New X(), New X();
+    Var length, width: Boolean = True, False;
+    $getNumOfShape(x,y,z:INT) {
+        x = index[index[3][index[3][3]]];
+        index[index[3][index[3][3]]+Abc::$abc(5+8,"dan")] = 9;
+        Foreach(x In 8-3/2 .. 100 By 50-10){
+            Foreach(x In 8-3/2 .. 100 By 50-10){
+                Foreach(x In 8-3/2 .. 100 By 50-10){
+                    Foreach(x In 8-3/2 .. 100 By 50-10){
+                        Break;
+                    }
+                }
+            }
+        }
+        Foreach(x In 8-3/2 .. 100 By 50-10){
+            Foreach(x In 8-3/2 .. 100 By 50-10){
+                Foreach(x In 8-3/2 .. 100 By 50-10){
+                    Foreach(x In 8-3/2 .. 100 By 50-10){
+                        Break;
+                    }
+                }
+            }
+        }
+        Foreach(x In 8-3/2 .. 100 By 50-10){
+            Foreach(x In 8-3/2 .. 100 By 50-10){
+                Foreach(x In 8-3/2 .. 100 By 50-10){
+                    Foreach(x In 8-3/2 .. 100 By 50-10){
+                        Break;
+                    }
+                }
+            }
+        }
+    }
+}                 
+        

@@ -1,0 +1,7 @@
+
+Class Shape {
+    $getNumOfShape(x,y,z:INT) {
+        Foreach(ibc In 3+5*8/Ac::$x .. 100 By A[3]){}
+    }
+}        
+        
