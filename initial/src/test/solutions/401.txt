@@ -1,1 +1,1 @@
-Redeclared <class 'StaticError.Constant'>: x
+Redeclared Attribute: x

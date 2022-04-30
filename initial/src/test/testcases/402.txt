@@ -1,3 +1,4 @@
-int main () {
-            putIntLn(getInt(4));
+Class Rectangle {
+            Var x: Int = 10;
+            Val x: Int = 10;
         }

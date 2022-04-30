@@ -1,1 +1,4 @@
-Program(List(FuncDecl(Id(main),List(),IntType,Block(List(),List(CallExpr(Id(putIntLn),List()))))))
+Class Rectangle {
+            Var $x: Int = 10;
+            $x(){}
+        }
