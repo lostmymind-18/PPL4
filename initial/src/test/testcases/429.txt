@@ -1,0 +1,15 @@
+
+        Class Rectangle{
+            size(x,y:Int){}
+        }
+        Class Shape{
+            Var x: Int = -(3+5);
+            Var y: String = "xyz";
+            Method()
+            {
+                Foreach(i In 1 .. 100 By 2){
+                    i = A[i];
+                }
+            }
+        }
+        

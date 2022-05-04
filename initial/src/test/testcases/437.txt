@@ -1,0 +1,6 @@
+
+        Class Program{
+            Val y : Int = 10;
+            Var x : Int = Shape::$count(y);
+        }
+        

@@ -1,0 +1,20 @@
+Class Rectangle {
+            method1(a,b:Int;c,d:Int){
+                Var x: Int = 10;
+                {
+                    Val x: Float = 10.2;
+                    Var y: Int = 10;
+                    Val z: Int = 10;
+                    Val b: Int = 20;
+                }
+            }
+            method1(a,b:Int;c,d:Int){
+                Var x: Int = 10;
+                {
+                    Val x: Float = 10.2;
+                    Var y: Int = 10;
+                    Val z: Int = 10;
+                    Val b: Int = 20;
+                }
+            }
+        }

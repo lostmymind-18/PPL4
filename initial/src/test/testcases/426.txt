@@ -1,0 +1,15 @@
+
+        Class Rectangle{
+            size(x,y:Int){}
+        }
+        Class Shape{
+            Var x: Int = -(3+5);
+            Var y: String = "xyz";
+            Method()
+            {
+                Var x: Int = 5;
+                Var z: Int;
+                z = k;    
+            }
+        }
+        

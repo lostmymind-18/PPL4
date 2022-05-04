@@ -1,0 +1,9 @@
+Class Rectangle {
+            Var x: Int = 10;
+            Val y: Rectangle = New Rectangle(Self.x);
+        }
+                Class Shape:Rectangle{
+            
+        }
+            Class Abc:Xyz{}
+        

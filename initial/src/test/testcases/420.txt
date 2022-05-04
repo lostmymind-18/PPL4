@@ -1,0 +1,13 @@
+
+        Class Rectangle{
+            size(x,y:Int){}
+        }
+        Class Shape{
+            Var x: Int = -(3+5);
+            Val y: Int = -Self.x;
+            Val rec: Rectangle = New Rectangle();
+            $count(y : Int){
+                Var z: Int = Self.rec.size(y,z);
+            }
+        }
+        

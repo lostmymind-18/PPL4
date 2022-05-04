@@ -1,0 +1,8 @@
+
+        Class Shape{
+            Var x: Int = 5 + $y;
+            $count(y : Int){
+                Return y;
+            }
+        }
+        

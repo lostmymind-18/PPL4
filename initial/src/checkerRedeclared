@@ -1,0 +1,161 @@
+    #---TEST REDECLARED---#
+    def test_redeclared1(self):
+        """Test redeclared"""
+        input="""Class Rectangle {
+            Var x: Int = 10;
+            Val x: Int = 10;
+        }"""
+        expect = "Redeclared Attribute: x"
+        self.assertTrue(TestChecker.test(input,expect,401))
+        
+
+    def test_redeclared2(self):
+        """Test redeclared"""
+        input="""Class Rectangle {
+            Var $x: Int = 10;
+            Val $x: Int = 10;
+        }"""
+        expect = "Redeclared Attribute: $x"
+        self.assertTrue(TestChecker.test(input,expect,402))
+                
+
+    def test_redeclared3(self):
+        """Test redeclared"""
+        input="""Class Rectangle {
+            Var $x: Int = 10;
+            Var $x: Int = 10;
+        }"""
+        expect = "Redeclared Attribute: $x"
+        self.assertTrue(TestChecker.test(input,expect,403))
+        
+    
+    def test_redeclared4(self):
+        """Test redeclared"""
+        input="""Class Rectangle {
+            Var $x: Int = 10;
+            $x(){}
+        }"""
+        expect = "Redeclared Method: $x"
+        self.assertTrue(TestChecker.test(input,expect,404))      
+        
+        
+    def test_redeclared5(self):
+        """Test redeclared"""
+        input="""Class Rectangle {
+            $x(a,b:Int;c,a:Int){}
+        }"""
+        expect = "Redeclared Parameter: a"
+        self.assertTrue(TestChecker.test(input,expect,405))
+        
+        
+    def test_redeclared6(self):
+        """Test redeclared"""
+        input="""Class Rectangle {
+            $x(a,b:Int;c,d:Int){
+                Var x: Int = 10;
+                Val x: Int = 20;
+            }
+        }"""
+        expect = "Redeclared Constant: x"
+        self.assertTrue(TestChecker.test(input,expect,406))
+        
+        
+    def test_redeclared7(self):
+        """Test redeclared"""
+        input="""Class Rectangle {
+            $x(a,b:Int;c,d:Int){
+                Val y: Int = 10;
+                Var y: Int = 20;
+            }
+        }"""
+        expect = "Redeclared Variable: y"
+        self.assertTrue(TestChecker.test(input,expect,407))                          
+        
+
+    def test_redeclared8(self):
+        """Test redeclared"""
+        input="""Class Rectangle {
+            $x(a,b:Int;c,d:Int){
+                Var x: Int = 10;
+                {
+                    Val x: Float = 10.2;
+                    Var y: Int = 10;
+                    Val z: Int = 10;
+                    Val y: Int = 20;
+                }
+            }
+        }"""
+        expect = "Redeclared Constant: y"
+        self.assertTrue(TestChecker.test(input,expect,408))
+        
+        
+    def test_redeclared9(self):
+        """Test redeclared"""
+        input="""Class Rectangle {
+            method1(a,b:Int;c,d:Int){
+                Var x: Int = 10;
+                {
+                    Val x: Float = 10.2;
+                    Var y: Int = 10;
+                    Val z: Int = 10;
+                    Val b: Int = 20;
+                }
+            }
+            method1(a,b:Int;c,d:Int){
+                Var x: Int = 10;
+                {
+                    Val x: Float = 10.2;
+                    Var y: Int = 10;
+                    Val z: Int = 10;
+                    Val b: Int = 20;
+                }
+            }
+        }"""
+        expect = "Redeclared Method: method1"
+        self.assertTrue(TestChecker.test(input,expect,409))
+        
+        
+    def test_redeclared10(self):
+        """Test redeclared"""
+        input="""Class Rectangle {
+            method1(a,b:Int;c,d:Int){
+                Var x: Int = 10;
+                {
+                    Val x: Float = 10.2;
+                    Var y: Int = 10;
+                    Val z: Int = 10;
+                    Val b: Int = 20;
+                }
+            }
+            method2(a,b:Int;c,d:Int){
+                Var x: Int = 10;
+                {
+                    Val x: Float = 10.2;
+                    Var y: Int = 10;
+                    Val z: Int = 10;
+                    Val b: Int = 20;
+                }
+            }
+        }
+        Class Rectangle {
+            method1(a,b:Int;c,d:Int){
+                Var x: Int = 10;
+                {
+                    Val x: Float = 10.2;
+                    Var y: Int = 10;
+                    Val z: Int = 10;
+                    Val b: Int = 20;
+                }
+            }
+            method2(a,b:Int;c,d:Int){
+                Var x: Int = 10;
+                {
+                    Val x: Float = 10.2;
+                    Var y: Int = 10;
+                    Val z: Int = 10;
+                    Val b: Int = 20;
+                }
+            }
+        }"""
+        expect = "Redeclared Class: Rectangle"
+        self.assertTrue(TestChecker.test(input,expect,410))

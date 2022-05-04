@@ -1,0 +1,14 @@
+
+        Class Rectangle{
+            size(x,y:Int){}
+        }
+        Class Shape{
+            Var x: Int = -(3+5);
+            Val y: Int = rec.size();
+            Val rec: Rectangle = New Rectangle(x,y);
+            Val arr: Array[String,3] = Array("abc","xyz","aaa");
+            Method(){
+                Var z:Int = Self.arr[k];
+            }
+        }
+        

@@ -1,0 +1,10 @@
+
+        Class Rectangle{
+            size(x,y:Int){}
+        }
+        Class Shape{
+            Var x: Int = -(3+5);
+            Val y: Int = -Self.x;
+            Val rec: Rectangle = New Rectangle(Self.x,z);
+        }
+        

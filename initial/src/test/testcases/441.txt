@@ -1,0 +1,12 @@
+
+        Class Shape{
+            $count(y : Int){
+                Return y;
+            }
+        }
+        Class Program{
+            Val y : Int = 10;
+            Val sh: Shape = New Shape();
+            Var x : Int = Shape::$count(Self.x);
+        }
+        

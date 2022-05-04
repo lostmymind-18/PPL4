@@ -1,4 +1,4 @@
 Class Rectangle {
             Var $x: Int = 10;
-            Val $x: Int = 10;
+            Var $x: Int = 10;
         }

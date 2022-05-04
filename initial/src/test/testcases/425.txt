@@ -1,0 +1,11 @@
+
+        Class Rectangle{
+            size(x,y:Int){}
+        }
+        Class Shape{
+            Var x: Int = -(3+5);
+            Var y: String = "xyz";
+            Val rec: Rectangle = New Rectangle(Self.x,Self.y);
+            Val arr: Array[String,3] = Array("abc",Self.y,k);
+        }
+        

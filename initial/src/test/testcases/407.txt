@@ -1,0 +1,6 @@
+Class Rectangle {
+            $x(a,b:Int;c,d:Int){
+                Val y: Int = 10;
+                Var y: Int = 20;
+            }
+        }

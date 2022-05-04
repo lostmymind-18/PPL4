@@ -1,0 +1,9 @@
+
+        Class Shape{
+            Var x: Int = -(3+5);
+            Val y: Int = -z;
+            $count(y : Int){
+                Return y;
+            }
+        }
+        

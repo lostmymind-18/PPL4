@@ -1,0 +1,4 @@
+Class Rectangle {
+            Var x: Int = 10;
+            Val y: Abc = New Abc(x);
+        }

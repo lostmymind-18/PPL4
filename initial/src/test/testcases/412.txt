@@ -1,0 +1,9 @@
+Class Rectangle {
+            Var x: Int = 10;
+            Val y: Int = Self.x;
+            a(){
+                Var z : Float = Self.x;
+                Var f : Float = z;
+                Var y : Float = m;
+            }
+        }

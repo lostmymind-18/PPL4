@@ -1,0 +1,68 @@
+UNDECLARED:
+	+Đề phân biệt giữa undeclared ID, class hay method thì mình sẽ xử lý class và method ở tại visitClass và visitMethod, còn lại sẽ chảy xuống classID để xử lý (bất kỳ cái tên nào không được thông báo trước thì sẽ xử lý là undeclared ID ngoại trừ class hay method)
+	
+
++Khi visit funtion thì phải làm sao để cho khi visitBody phân biệt được nó là thuộc về hàm hay chỉ là một block đơn lẻ, vì tại visitBody sẽ xử lý param của function đó
+
+	
+UNDECLARED IDENTIFIER: Những trường hợp mà identifier được sử dụng
+	1. BinaryOP: left, right. Done
+	2. UnaryOp: body.	Done
+	3. CallExpr: obj, param  Done
+	4. NewExpr: param	Done
+	5. ArrayCell: arr, idx Done
+	6. FieldAccess: obj	Done
+	7. ArrayLiteral: value	Done
+	8. Assign: lhs, exp	Done
+	9. If: expr		Done
+	10. For: Id, expr1,expr2,expr3 Done
+	11. Return 		Done
+	12. CallStmt: obj, param Done
+	13. VarDecl: varInit	Done
+	14. ConstDecl: Value	Done
+	
+	
+UNDECLARED CLASS: Những trường hợp mà class được sử dụng:
+	1. Class Declaration: Superclass name. Done
+	2. Attribute Declaration: ClassType. Done
+	3. Object creation: X is class name. Done
+	4. Member access: - Static attribute access Done
+			  - Static method invocation	Done
+	5. Method invocation statement
+	
+UNDECLARED: Test Global scope và Class scope.
+
+CHÚ Ý: Khi mà gọi một attribute trong một class thì có nhất thiết phải theo sau self không?
+
+    def test_undeclare13(self):
+        """Test undeclared identifier"""
+        input="""
+        Class Rectangle{
+            size(x,y:Int){}
+        }
+        Class Shape{
+            Var x: Int = -(3+5);
+            Val y: Int = -x;
+            Val rec: Rectangle = New Rectangle(x,y);
+            Val arr: Array[String,3] = Array("abc","xyz","aaa");
+            Method(){
+                Var z:Int = arr[k];
+            }
+        }
+        """
+        expect = "Undeclared Identifier: ar"
+        self.assertTrue(TestChecker.test(input,expect,423))
+        
+        
+   Trong testcase trên thì có nên gọi Undeclared(Identifier,arr)không? Vì mặc dù arr đã được khai báo ở trên nhưng đó là thuộc class attribute và chỉ có thể truy cập bằng Self. Phần này sẽ được suy nghĩ sau
+   
+   
+   
+UNDECLARED ATTRIBUTE: Những trường hợp mà attribute được sử dụng:
+	1.Field access: fieldname	Done
+	
+Điều gì xảy ra nếu Field access instance nhưng cái type object Id không phải là một class...(int,float..)
+
+
+
+KHI THĂM BẤT KÌ EXPRESSION NÀO THÌ TRẢ VỀ TYPE CỦA NÓ
